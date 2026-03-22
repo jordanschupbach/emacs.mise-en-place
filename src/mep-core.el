@@ -42,16 +42,16 @@
   "increases window height if window below, decreases otherwise"
   (interactive)
   (if (window-in-direction 'right)
-      (evil-window-decrease-width 2)
-      (evil-window-increase-width 2)))
+      (evil-window-decrease-width 4)
+      (evil-window-increase-width 4)))
 
 
 (defun mep/change-window-size-l ()
   "increases window height if window below, decreases otherwise"
   (interactive)
   (if (window-in-direction 'right)
-      (evil-window-increase-width 2)
-      (evil-window-decrease-width 2)))
+      (evil-window-increase-width 4)
+      (evil-window-decrease-width 4)))
 
 
 (defun mep/increase-treemacs-width ()

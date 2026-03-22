@@ -9,3 +9,4 @@ mode
 org/compile_commands.json
 .projectile
 auto-save-list
+transient
