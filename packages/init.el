@@ -7,7 +7,6 @@
 (require 'vc-use-package)
 
 (setq package-dir (concat config-dir "./packages/"))
-(load (concat package-dir "mep-doom-themes.el") t)
 
 (message "Loading packages from %s" package-dir)
 (load (concat package-dir "mep-all-the-icons.el") t)
@@ -54,6 +53,8 @@
 (load (concat package-dir "mep-vimish-fold.el") t)
 (load (concat package-dir "mep-org-modern.el") t)
 (load (concat package-dir "mep-golden-ratio.el") t)
+
+(load (concat package-dir "mep-doom-themes.el") t)
 
 ;; (load (concat package-dir "mep-ess.el") t)
 ;; (load (concat package-dir "mep-magit.el") t)
