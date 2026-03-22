@@ -12,12 +12,12 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+(load-theme 'modus-vivendi)
 (load (concat config-dir "./packages/init.el"))
 (load (concat config-dir "./src/mep-config.el"))
 (load (concat config-dir "./src/mep-core.el"))
 (load (concat config-dir "./src/mep-util.el"))
 
-(load-theme 'modus-vivendi)
 
 
 ;; (enlarge-window DELTA &optional HORIZONTAL)
