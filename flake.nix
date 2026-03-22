@@ -17,6 +17,7 @@
         mkdir -p "$CACHE_DIR"
         cp -r ${toString ./.}/* "$CACHE_DIR/" 2>/dev/null || true
         chmod -R u+w "$CACHE_DIR"/*
+        export PATH="${pkgs.cmake}/bin:$PATH"
         exec ${pkgs.emacs-unstable}/bin/emacs --init-dir $CACHE_DIR
       '';
     in
