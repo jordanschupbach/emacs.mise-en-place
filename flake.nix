@@ -27,7 +27,7 @@
         program = "${emacsWrapper}/bin/emacs-wrapper";
       };
       devShell = pkgs.mkShell {
-        buildInputs = [ pkgs.emacs-unstable (nerd-fonts.ubuntu-mono)];
+        buildInputs = [ pkgs.emacs-unstable (pkgs.nerd-fonts.ubuntu-mono)];
       };
     };
 }
