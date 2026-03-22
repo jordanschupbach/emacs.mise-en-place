@@ -9,7 +9,12 @@
 ;; (byte-recompile-directory config-dir 0 t)
 
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
+'(package-archives
+   '(("gnu" . "http://elpa.gnu.org/packages/")
+     ("melpa" . "http://www.mirrorservice.org/sites/stable.melpa.org/packages/")))
 (package-initialize)
 
 

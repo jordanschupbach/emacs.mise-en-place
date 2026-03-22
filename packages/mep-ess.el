@@ -7,7 +7,7 @@
 
 
 (use-package ess
-  :vc (:fetcher "github"
-       :repo "emacs-ess/ESS")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-ess/ESS")
   :ensure t
 )
