@@ -32,6 +32,7 @@
 	  pkgs.nerd-fonts.ubuntu-mono
 	  pkgs.libvterm
 	  pkgs.tree-sitter
+	  pkgs.cmake
 	  ];
 
       };

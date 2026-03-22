@@ -53,7 +53,7 @@
 (load (concat package-dir "mep-vimish-fold.el") t)
 (load (concat package-dir "mep-org-modern.el") t)
 (load (concat package-dir "mep-golden-ratio.el") t)
-(load (concat package-dir "mep-vterm.el") t)
+;; (load (concat package-dir "mep-vterm.el") t)
 
 (load (concat package-dir "mep-doom-themes.el") t)
 
