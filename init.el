@@ -17,6 +17,7 @@
 (load (concat config-dir "./src/mep-core.el"))
 (load (concat config-dir "./src/mep-util.el"))
 
+(load-theme 'modus-vivendi)
 
 ;; (enlarge-window DELTA &optional HORIZONTAL)
 (load "~/.private/private.el")
