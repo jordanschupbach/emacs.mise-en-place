@@ -20,6 +20,7 @@
         export PATH="${pkgs.cmake}/bin:$PATH"
         export PATH="${pkgs.gnumake}/bin:$PATH"
         export PATH="${pkgs.gcc}/bin:$PATH"
+        export PATH="${pkgs.libtool}/bin:$PATH"
         exec ${pkgs.emacs-unstable}/bin/emacs --init-dir $CACHE_DIR
       '';
     in
@@ -38,6 +39,7 @@
 	  pkgs.cmake
 	  pkgs.gnumake
 	  pkgs.gcc
+	  pkgs.libtool
 	  ];
 
       };
