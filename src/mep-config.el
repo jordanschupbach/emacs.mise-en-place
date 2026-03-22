@@ -40,9 +40,9 @@
 (add-hook 'help-mode-hook 'disable-display-line-numbers-mode-hook)
 
 ;; Font size
-(set-face-attribute 'default nil :height 170) 
+;; (set-face-attribute 'default nil :height 170) 
 
-(set-face-attribute 'default nil :family "UbuntuMono Nerd Font" :height 170)
+(set-face-attribute 'default nil :family "UbuntuMono Nerd Font" :height 210)
 
 ;; Remove top Menu
 (menu-bar-mode -1)

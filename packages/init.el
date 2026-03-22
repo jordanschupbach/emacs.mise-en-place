@@ -6,6 +6,8 @@
   (package-vc-install "https://github.com/slotThe/vc-use-package"))
 (require 'vc-use-package)
 
+(load (concat package-dir "mep-doom-themes.el") t)
+
 (setq package-dir (concat config-dir "./packages/"))
 
 (message "Loading packages from %s" package-dir)
