@@ -54,11 +54,10 @@
 (load (concat package-dir "mep-org-modern.el") t)
 (load (concat package-dir "mep-golden-ratio.el") t)
 (load (concat package-dir "mep-emacs-direnv.el") t)
-;; (load (concat package-dir "mep-vterm.el") t)
-
 (load (concat package-dir "mep-doom-themes.el") t)
+(load (concat package-dir "mep-vterm.el") t)
+(load (concat package-dir "mep-ess.el") t)
 
-;; (load (concat package-dir "mep-ess.el") t)
 ;; (load (concat package-dir "mep-magit.el") t)
 ;; (load (concat package-dir "mep-org-roam.el") t)
 ;; (load (concat package-dir "mep-org-reveal.el") t)
