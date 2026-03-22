@@ -9,5 +9,4 @@
   :vc (:fetcher "github"
        :repo "emacs-ess/ESS")
   :ensure t
- :demand t
 )

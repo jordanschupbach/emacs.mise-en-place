@@ -31,9 +31,11 @@
  '(custom-safe-themes
    '("0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
      default))
- '(package-selected-packages nil)
+ '(package-selected-packages '(direnv))
  '(package-vc-selected-packages
-   '((doom-themes :vc-backend Git :url
+   '((direnv :vc-backend Git :url
+	     "https://github.com/wbolster/emacs-direnv")
+     (doom-themes :vc-backend Git :url
 		  "https://github.com/doomemacs/themes")
      (magit :vc-backend Git :url "https://github.com/magit/magit")
      (org-modern :vc-backend Git :url
