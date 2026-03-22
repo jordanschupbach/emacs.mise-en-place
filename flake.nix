@@ -13,7 +13,7 @@
       };
       emacsWrapper = pkgs.writeShellScriptBin "emacs-wrapper" ''
         #!/bin/sh
-        CACHE_DIR="$HOME/.emacs.misenplace"
+        CACHE_DIR="$HOME/.emacs.mise-en-place"
         mkdir -p "$CACHE_DIR"
         cp -r ${toString ./.}/* "$CACHE_DIR/" 2>/dev/null || true
         chmod -R u+w "$CACHE_DIR"/*
