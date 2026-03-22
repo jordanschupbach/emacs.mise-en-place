@@ -14,7 +14,13 @@
 
 (load (concat config-dir "./packages/init.el"))
 (load (concat config-dir "./src/mep-config.el"))
+(load (concat config-dir "./src/mep-core.el"))
+(load (concat config-dir "./src/mep-util.el"))
+
+
+;; (enlarge-window DELTA &optional HORIZONTAL)
 (load "~/.private/private.el")
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
