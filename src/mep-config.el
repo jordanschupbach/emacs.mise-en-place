@@ -10,6 +10,7 @@
 ;; '(progn (define-key pdf-view-mode-map (kbd "<normal-state> ,") nil))
 ;; '(progn (define-key image-mode-map (kbd "<normal-state> ,") nil))
 
+(setq explicit-shell-file-name "/usr/bin/env zsh")
 
 ;; Setup treesitter
 (setq treesit-language-source-alist
