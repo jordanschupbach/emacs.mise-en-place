@@ -42,6 +42,8 @@
 ;; Font size
 (set-face-attribute 'default nil :height 170) 
 
+(set-face-attribute 'default nil :family "UbuntuMono Nerd Font" :height 170)
+
 ;; Remove top Menu
 (menu-bar-mode -1)
 

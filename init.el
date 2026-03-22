@@ -19,6 +19,7 @@
 
 (load-theme 'modus-vivendi)
 
+
 ;; (enlarge-window DELTA &optional HORIZONTAL)
 (load "~/.private/private.el")
 
