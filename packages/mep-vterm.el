@@ -1,6 +1,9 @@
 ;; https://github.com/akermu/emacs-libvterm
 
 (use-package vterm
- :straight (:host github :repo "joaotavora/yasnippet")
- :config
- (yas-global-mode 1)
+  :vc (:fetcher "github"
+       :repo "akermu/emacs-libvterm")
+  :ensure t
+  :config
+)
+
