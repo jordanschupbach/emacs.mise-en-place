@@ -1,0 +1,55 @@
+* A simple org mode document
+
+#+begin_src ess-r :file circle.png :results graphics :tangle circle_plot.rtangle circle_plot.r
+  library(ggplot2)
+
+  # Create data for the circle
+  theta <- seq(0, 2 * pi, length.out = 100)
+  x <- cos(theta)
+  y <- sin(theta)
+
+  # Create the plot
+  plot = ggplot() +
+    geom_polygon(aes(x, y), fill = rgb(0.1, 0.2, 0.4, 0),
+      color = rgb(0.9, 0.3, 0.7, 1), linewidth = 3) +
+    geom_segment(aes(x = 0, y = 0, xend = cos(0), yend = sin(0)),
+         
+#+end_src
+
+#+RESULTS:
+
+[[file:circle.png]]
+
+
+
+#+begin_src cpp :tangle "hello_worlr.cpp"
+  #include<iostream>
+  int main() {
+    std::cout << "Hello.... worlr";
+    return 0;
+  }
+
+#+end_src
+
+#+RESULTS:
+: Hello.... worlr
+
+
+#+begin_src cpp :results output
+#include <datamunge/core/vutils.hpp>
+#include <datamunge/utils/print.hpp>
+#include <iostream>
+#include <chrono>
+#include <thread>
+
+int main() {
+  int n = 20;
+  auto x = dm::runif(100, 0.0, 1.0);
+  dm::print(x);
+  // dm::print(dm::head(x, 5));
+  std::cout << "asldkfkj alsdf;j sdlfj" << std::endl;
+  return 0;
+}
+#+end_src
+
+

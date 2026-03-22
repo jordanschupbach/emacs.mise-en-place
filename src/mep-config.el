@@ -1,3 +1,16 @@
+;; ;; Remove menubar
+;; (menu-bar-mode -1)
+;; ;; Remove toolbar
+;; (tool-bar-mode -1)
+;; '(setq image-mode-map (make-sparse-keymap))
+;; '(setq pdf-view-mode-map (make-sparse-keymap))
+;; '(setq treemacs-mode-map (make-sparse-keymap))
+;; '(progn (define-key image-mode-map (kbd ",") nil))
+;; '(progn (define-key pdf-view-mode-map (kbd ",") nil))
+;; '(progn (define-key pdf-view-mode-map (kbd "<normal-state> ,") nil))
+;; '(progn (define-key image-mode-map (kbd "<normal-state> ,") nil))
+
+
 ;; Setup treesitter
 (setq treesit-language-source-alist
   '((bash "https://github.com/tree-sitter/tree-sitter-bash")
@@ -51,9 +64,7 @@
 
 ;; Backup settings
 (setq require-final-newline nil)
-
 (setq backup-directory-alist `(("." . "~/.emacs.misenplace/.saves"))) 
-
 ;; (setq auto-save-file-name-transforms `((".*" "~/.emacs.misenplace/auto-saves/" t)))
 (setq tab-bar-select-tab-modifiers "meta")
 (setq standard-indent 2)
