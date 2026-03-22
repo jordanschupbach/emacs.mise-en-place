@@ -1604,6 +1604,8 @@
          "zm" '(origami-close-all-nodes :which-key "close all folds")
          "zM" '(hs-hide-level :which-key "close all at level")
 
+         "<return>" '(vterm :which-key "vterm")
+
          )
 
 
