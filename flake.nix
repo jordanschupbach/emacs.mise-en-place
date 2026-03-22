@@ -19,7 +19,7 @@
         chmod -R u+w "$CACHE_DIR"/*
         export PATH="${pkgs.cmake}/bin:$PATH"
         export PATH="${pkgs.gnumake}/bin:$PATH"
-        export PATH="${pkgs.libgcc}/bin:$PATH"
+        export PATH="${pkgs.gcc}/bin:$PATH"
         exec ${pkgs.emacs-unstable}/bin/emacs --init-dir $CACHE_DIR
       '';
     in
@@ -37,7 +37,7 @@
 	  pkgs.tree-sitter
 	  pkgs.cmake
 	  pkgs.gnumake
-	  pkgs.libgcc
+	  pkgs.gcc
 	  ];
 
       };
