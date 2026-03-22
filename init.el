@@ -37,7 +37,6 @@
  '(custom-safe-themes
    '("0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
      default))
- '(package-selected-packages '(direnv magit-gerrit ob-nix))
  '(package-vc-selected-packages
    '((ob-nix :vc-backend Git :url "https://github.com/emacsmirror/ob-nix")
      (direnv :vc-backend Git :url
