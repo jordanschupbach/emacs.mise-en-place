@@ -43,6 +43,7 @@
 (load (concat package-dir "mep-perspective.el") t)
 (load (concat package-dir "mep-general.el") t)
 (load (concat package-dir "mep-ob-async.el") t)
+(load (concat package-dir "mep-ob-nix.el") t)
 (load (concat package-dir "mep-dap-mode.el") t)
 (load (concat package-dir "mep-cmake-mode.el") t)
 (load (concat package-dir "mep-ox-gfm.el") t)
