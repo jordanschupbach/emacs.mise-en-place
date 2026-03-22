@@ -12,6 +12,7 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+
 (load-theme 'modus-vivendi)
 (load (concat config-dir "./packages/init.el"))
 (load (concat config-dir "./src/mep-config.el"))
@@ -31,7 +32,7 @@
  '(custom-safe-themes
    '("0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
      default))
- '(package-selected-packages '(direnv))
+ '(package-selected-packages '(direnv magit-gerrit))
  '(package-vc-selected-packages
    '((direnv :vc-backend Git :url
 	     "https://github.com/wbolster/emacs-direnv")
