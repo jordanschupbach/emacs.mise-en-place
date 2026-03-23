@@ -58,6 +58,7 @@
 (load (concat package-dir "mep-doom-themes.el") t)
 (load (concat package-dir "mep-vterm.el") t)
 (load (concat package-dir "mep-ess.el") t)
+(load (concat package-dir "mep-haskell-mode.el") t)
 
 ;; (load (concat package-dir "mep-magit.el") t)
 ;; (load (concat package-dir "mep-org-roam.el") t)
