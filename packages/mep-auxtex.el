@@ -6,7 +6,7 @@
 ;;   :ensure t)
 
 
-(use-package evil
+(use-package auxtex
   :vc (:fetcher "github"
        :repo "emacs-straight/auxtex")
   :ensure t

@@ -23,7 +23,6 @@
 (use-package doom-themes
   :vc (:fetcher "github"
        :repo "doomemacs/themes")
-
   :ensure t
   :config
   ;; Global settings (defaults)
