@@ -57,6 +57,7 @@
 (load (concat package-dir "mep-ess.el") t)
 (load (concat package-dir "mep-haskell-mode.el") t)
 (load (concat package-dir "mep-ob-async.el") t)
+(load (concat package-dir "mep-ob-python.el") t)
 (load (concat package-dir "mep-ob-nix.el") t)
 (load (concat package-dir "mep-ob-mermaid.el") t)
 (load (concat package-dir "mep-ob-crystal.el") t)
