@@ -1,5 +1,6 @@
 
-(use-package ob-lua
-  :ensure t
-  :after org
-)
+(load-library 'ob-lua)
+;; (use-package ob-lua
+;;   :ensure t
+;;   :after org
+;; )
