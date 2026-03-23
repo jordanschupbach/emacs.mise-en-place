@@ -1,5 +1,5 @@
 
-(load-library 'ob-ocaml)
+(load-library "ob-ocaml")
 ;; (use-package ob-ocaml
 ;;   :ensure t
 ;;   :after org
