@@ -39,6 +39,8 @@
 				  (shell . t)
 				  (maxima . t)
 				  (latex . t)
+				  (sqlite . t)
+				  (fortran . t)
 				  )
 			       )
   (setq org-latex-pdf-process '("xelatex -interaction nonstopmode -output-directory %o %f"))
