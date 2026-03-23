@@ -10,3 +10,5 @@ org/compile_commands.json
 .projectile
 auto-save-list
 transient
+np
+.lsp-session-v1
