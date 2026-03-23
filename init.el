@@ -24,7 +24,7 @@
 (load (concat config-dir "./src/mep-core.el"))
 (load (concat config-dir "./src/mep-util.el"))
 
-
+(setq inferior-lisp-program "sbcl")
 
 ;; (enlarge-window DELTA &optional HORIZONTAL)
 (load "~/.private/private.el")
