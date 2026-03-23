@@ -6,8 +6,8 @@
 ;;   :ensure t)
 
 
-(use-package auxtex
-  :vc (:fetcher "github"
-       :repo "emacsmirror/auxtex")
-  :ensure t
-)
+;; (use-package auxtex
+;;   :vc (:fetcher "github"
+;;        :repo "emacsmirror/auxtex")
+;;   :ensure t
+;; )
