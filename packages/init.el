@@ -68,6 +68,7 @@
 (load (concat package-dir "mep-ob-rust.el") t)
 (load (concat package-dir "mep-tuareg.el") t)
 (load (concat package-dir "mep-slime.el") t)
+(load (concat package-dir "mep-emacs-gnuplot.el") t)
 
 ;; (load (concat package-dir "mep-magit.el") t)
 ;; (load (concat package-dir "mep-org-roam.el") t)
