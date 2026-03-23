@@ -8,6 +8,6 @@
 
 (use-package auxtex
   :vc (:fetcher "github"
-       :repo "emacs-straight/auxtex")
+       :repo "emacsmirror/auxtex")
   :ensure t
 )
