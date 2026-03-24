@@ -91,6 +91,7 @@
 (load (concat package-dir "mep-copilot.el") t)
 (load (concat package-dir "mep-nix-mode.el") t)
 (load (concat package-dir "mep-poly-org.el") t)
+(load (concat package-dir "mep-rust-mode.el") t)
 ;; (load (concat package-dir "mep-org-nix-shell.el") t)
 
 
