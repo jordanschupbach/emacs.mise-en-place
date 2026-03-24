@@ -1,6 +1,6 @@
 (use-package copilot
   :vc (:fetcher "github"
-       :repo "copilot-emacs/copilot")
+       :repo "copilot-emacs/copilot.el")
   :ensure t
   :hook (prog-mode . copilot-mode)
   :bind (:map copilot-completion-map
