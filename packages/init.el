@@ -88,6 +88,7 @@
 (load (concat package-dir "mep-ob-ruby.el") t)
 (load (concat package-dir "mep-ob-rust.el") t)
 (load (concat package-dir "mep-ob-sqlite.el") t)
+(load (concat package-dir "mep-copilot.el") t)
 
 
 
