@@ -25,6 +25,12 @@
 (load (concat config-dir "./src/mep-util.el"))
 
 
+;; Don't show warnings from libraries - only errors:
+(setq warning-minimum-level :error)
+
+
+
+
 ;; ;; define project-root method
 ;; (defun project-root (project)
 ;;   "Return the root directory of the project."
