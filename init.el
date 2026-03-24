@@ -25,12 +25,12 @@
 (load (concat config-dir "./src/mep-util.el"))
 
 
-;; define project-root method
-(defun project-root (project)
-  "Return the root directory of the project."
-  (or (projectile-project-root)
-      (vc-root-dir)
-      default-directory))
+;; ;; define project-root method
+;; (defun project-root (project)
+;;   "Return the root directory of the project."
+;;   (or (projectile-project-root)
+;;       (vc-root-dir)
+;;       default-directory))
 
 
 (setq inferior-lisp-program "sbcl")
