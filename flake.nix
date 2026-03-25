@@ -22,7 +22,7 @@
         export PATH="${pkgs.gcc}/bin:$PATH"
         export PATH="${pkgs.libtool}/bin:$PATH"
         export PATH="${pkgs.R}/bin:$PATH"
-        exec ${pkgs.emacs-unstable}/bin/emacs --init-dir $CACHE_DIR
+        exec ${pkgs.emacs-unstable}/bin/emacs --init-dir "$CACHE_DIR" "$@"
       '';
     in
     {
