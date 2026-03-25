@@ -13,3 +13,7 @@ transient
 np
 .lsp-session-v1
 straight
+
+eclipse.jdt.ls
+.cache
+workspace
