@@ -6,9 +6,9 @@
 ;;  )
 
 
-(use-package texfrag
-  :vc (:fetcher "github"
-       :repo "TobiasZawada/texfrag")
-  :ensure t
-  :config
- )
+;; (use-package texfrag
+;;   :vc (:fetcher "github"
+;;        :repo "TobiasZawada/texfrag")
+;;   :ensure t
+;;   :config
+;;  )
