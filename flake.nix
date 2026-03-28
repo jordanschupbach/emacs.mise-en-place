@@ -42,6 +42,7 @@
 	  pkgs.gcc
 	  pkgs.libtool
 	  pkgs.R
+	  pkgs.copilot-language-server
 	  ];
 
       };

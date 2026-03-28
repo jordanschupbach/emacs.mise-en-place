@@ -74,7 +74,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-vc-selected-packages
-   '((nix-mode :vc-backend Git :url "https://github.com/NixOs/nix-mode"))))
+   '((poly-org :vc-backend Git :url
+	       "https://github.com/polymode/poly-org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
