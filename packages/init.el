@@ -78,7 +78,6 @@
 (load (concat package-dir "mep-ob-maxima.el") t)
 (load (concat package-dir "mep-ob-mermaid.el") t)
 (load (concat package-dir "mep-ob-nim.el") t)
-(load (concat package-dir "mep-ob-nix.el") t)
 (load (concat package-dir "mep-ob-ocaml.el") t)
 (load (concat package-dir "mep-ob-octave.el") t)
 (load (concat package-dir "mep-ob-perl.el") t)
@@ -89,13 +88,14 @@
 (load (concat package-dir "mep-ob-rust.el") t)
 (load (concat package-dir "mep-ob-sqlite.el") t)
 (load (concat package-dir "mep-copilot.el") t)
-(load (concat package-dir "mep-nix-mode.el") t)
 (load (concat package-dir "mep-poly-org.el") t)
 (load (concat package-dir "mep-rust-mode.el") t)
 (load (concat package-dir "mep-org-transclusion.el") t)
 ;; (load (concat package-dir "mep-org-nix-shell.el") t)
 
 
+;; (load (concat package-dir "mep-ob-nix.el") t)
+;; (load (concat package-dir "mep-nix-mode.el") t)
 
 ;; (load (concat package-dir "mep-magit.el") t)
 ;; (load (concat package-dir "mep-org-roam.el") t)
