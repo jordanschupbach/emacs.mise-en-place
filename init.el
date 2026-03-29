@@ -74,8 +74,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-vc-selected-packages
-   '((poly-org :vc-backend Git :url
-	       "https://github.com/polymode/poly-org"))))
+   '((org-roam :vc-backend Git :url
+	       "https://github.com/org-roam/org-roam"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

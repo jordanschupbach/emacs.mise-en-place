@@ -15,8 +15,9 @@
 
 
 (use-package org-roam
-  :vc (:fetcher "github"
-       :repo "org-roam/org-roam")
+  :straight (:host github :repo "org-roam/org-roam")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "org-roam/org-roam")
   :ensure t
   :custom
   (org-roam-directory (file-truename "~/org-roam"))
