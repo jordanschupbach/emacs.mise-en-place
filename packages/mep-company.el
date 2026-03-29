@@ -16,4 +16,5 @@
     ;;(add-to-list 'auto-mode-alist '("\\.h\\'" . company-mode))
     ;;(add-to-list 'auto-mode-alist '("\\.hpp\\'" . company-mode))
     ;;(add-to-list 'auto-mode-alist '("\\.cpp\\'" . company-mode))
-  )
+
+

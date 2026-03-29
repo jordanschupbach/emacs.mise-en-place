@@ -36,8 +36,9 @@
   :commands lsp)
 
 (use-package company-lsp
-  :vc (:fetcher "github"
-       :repo "tigersoldier/company-lsp")
+  :straight (:host github :repo "tigersoldier/company-lsp")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "tigersoldier/company-lsp")
   :ensure t
   :config
 (push 'company-lsp company-backends)
@@ -64,8 +65,9 @@
 
 
 (use-package lsp-ui
-  :vc (:fetcher "github"
-       :repo "emacs-lsp/lsp-ui")
+  :straight (:host github :repo "emacs-lsp/lsp-ui")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-lsp/lsp-ui")
   :ensure t
   :commands lsp-ui-mode)
 
