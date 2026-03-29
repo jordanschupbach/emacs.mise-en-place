@@ -8,8 +8,9 @@
 
 
 (use-package affe
-  :vc (:fetcher "github"
-       :repo "minad/affe")
+  :straight (:host github :repo "minad/affe")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/affe")
   :ensure t
   :config
   ;; Manual preview key for `affe-grep'
