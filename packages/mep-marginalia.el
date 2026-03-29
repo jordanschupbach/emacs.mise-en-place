@@ -22,8 +22,9 @@
 
 
 (use-package marginalia
-  :vc (:fetcher "github"
-       :repo "minad/marginalia")
+  :straight (:host github :repo "minad/marginalia")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/marginalia")
   :ensure t
   :bind (:map minibuffer-local-map
          ("M-A" . marginalia-cycle))

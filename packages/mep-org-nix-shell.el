@@ -1,7 +1,8 @@
 
 (use-package org-nix-shell
-  :vc (:fetcher "github"
-       :repo "AntonHakansson/org-nix-shell")
+  :straight (:host github :repo "AntonHakansson/org-nix-shell")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "AntonHakansson/org-nix-shell")
   :ensure t
   :config
  )

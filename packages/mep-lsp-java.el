@@ -7,8 +7,9 @@
 
 
 (use-package lsp-java
-  :vc (:fetcher "github"
-       :repo "emacs-lsp/lsp-java")
+  :straight (:host github :repo "emacs-lsp/lsp-java")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-lsp/lsp-java")
   :ensure t
   :after lsp-mode
   :config (add-hook 'java-mode-hook 'lsp)

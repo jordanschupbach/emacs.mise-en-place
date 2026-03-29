@@ -2,8 +2,9 @@
 
 
 (use-package dashboard
-  :vc (:fetcher "github"
-       :repo "emacs-dashboard/emacs-dashboard")
+  :straight (:host github :repo "emacs-dashboard/emacs-dashboard")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-dashboard/emacs-dashboard")
   :ensure t
   :config
   (dashboard-setup-startup-hook)

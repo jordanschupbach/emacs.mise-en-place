@@ -13,8 +13,9 @@
 
 
 (use-package doom-modeline
-  :vc (:fetcher "github"
-       :repo "seagle0128/doom-modeline")
+  :straight (:host github :repo "seagle0128/doom-modeline")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "seagle0128/doom-modeline")
   :ensure t
   :init (doom-modeline-mode 1)
 )

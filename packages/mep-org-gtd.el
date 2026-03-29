@@ -17,8 +17,9 @@
 
 
 (use-package org-gtd
-  :vc (:fetcher "github"
-       :repo "Trevoke/org-gtd.el")
+  :straight (:host github :repo "Trevoke/org-gtd.el")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "Trevoke/org-gtd.el")
   :ensure t
   :after 'org
   :demand t

@@ -6,8 +6,9 @@
 
 
 (use-package markdown-mode
-  :vc (:fetcher "github"
-       :repo "jrblevin/markdown-mode")
+  :straight (:host github :repo "jrblevin/markdown-mode")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "jrblevin/markdown-mode")
   :ensure t
   :config
   (setq neo-window-fixed-size nil)
@@ -15,8 +16,6 @@
   :init (setq markdown-command "multimarkdown")
   :bind (:map markdown-mode-map
          ("C-c C-e" . markdown-do)))
-
-
 
 
 ;; (use-package markdown-mode

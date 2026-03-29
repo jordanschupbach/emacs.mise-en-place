@@ -8,8 +8,9 @@
 
 
 (use-package evil-collection
-  :vc (:fetcher "github"
-       :repo "emacs-evil/evil-collection")
+  :straight (:host github :repo "emacs-evil/evil-collection")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-evil/evil-collection")
   :ensure t
   :after evil
   :config

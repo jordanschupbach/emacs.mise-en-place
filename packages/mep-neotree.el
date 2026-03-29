@@ -9,8 +9,9 @@
 
 
 (use-package neotree
-  :vc (:fetcher "github"
-       :repo "jaypei/emacs-neotree")
+  :straight (:host github :repo "jaypei/emacs-neotree")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "jaypei/emacs-neotree")
   :ensure t
 
  :after all-the-icons

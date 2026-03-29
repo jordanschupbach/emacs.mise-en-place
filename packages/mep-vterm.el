@@ -1,8 +1,9 @@
 ;; https://github.com/akermu/emacs-libvterm
 
 (use-package vterm
-  :vc (:fetcher "github"
-       :repo "akermu/emacs-libvterm")
+  :straight (:host github :repo "akermu/emacs-libvterm")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "akermu/emacs-libvterm")
   :ensure t
   :config
 )

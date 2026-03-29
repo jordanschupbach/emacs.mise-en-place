@@ -4,8 +4,9 @@
 
 
 (use-package corfu
-  :vc (:fetcher "github"
-       :repo "minad/corfu")
+  :straight (:host github :repo "minad/corfu")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/corfu")
   :ensure t
   :init
   (global-corfu-mode)
@@ -21,8 +22,9 @@
 
 
 (use-package cape
-  :vc (:fetcher "github"
-       :repo "minad/cape")
+  :straight (:host github :repo "minad/cape")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/cape")
   :ensure t
   :init
   ;; Add to the global default value of `completion-at-point-functions' which is

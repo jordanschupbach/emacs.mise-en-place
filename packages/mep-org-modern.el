@@ -6,8 +6,9 @@
 ;;   )
 
 (use-package org-modern
-  :vc (:fetcher "github"
-       :repo "minad/org-modern")
+  :straight (:host github :repo "minad/org-modern")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/org-modern")
   :ensure t
   :after 'org
   )

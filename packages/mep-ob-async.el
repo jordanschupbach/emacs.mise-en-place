@@ -6,8 +6,9 @@
 
 
 (use-package ob-async
-  :vc (:fetcher "github"
-       :repo "astahlman/ob-async")
+  :straight (:host github :repo "astahlman/ob-async")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "astahlman/ob-async")
   :ensure t
   :after org
   )

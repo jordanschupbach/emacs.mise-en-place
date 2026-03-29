@@ -4,7 +4,8 @@
 ;; )
 
 (use-package htmlize
-  :vc (:fetcher "github"
-       :repo "hniksic/emacs-htmlize")
+  :straight (:host github :repo "hniksic/emacs-htmlize")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "hniksic/emacs-htmlize")
   :ensure t
 )

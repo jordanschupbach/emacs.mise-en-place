@@ -4,8 +4,9 @@
 ;; )
 
 (use-package gptel
-  :vc (:fetcher "github"
-       :repo "karthink/gptel")
+  :straight (:host github :repo "karthink/gptel")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "karthink/gptel")
   :ensure t
-  )
+)
 

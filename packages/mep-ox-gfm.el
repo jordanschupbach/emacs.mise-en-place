@@ -6,7 +6,8 @@
 
 
 (use-package ox-gfm
-  :vc (:fetcher "github"
-       :repo "larstvei/ox-gfm")
+  :straight (:host github :repo "larstvei/ox-gfm")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "larstvei/ox-gfm")
   :ensure t
 )

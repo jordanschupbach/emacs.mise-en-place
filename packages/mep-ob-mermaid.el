@@ -8,8 +8,9 @@
 
 
 (use-package ob-mermaid
-  :vc (:fetcher "github"
-       :repo "arnm/ob-mermaid")
+  :straight (:host github :repo "arnm/ob-mermaid")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "arnm/ob-mermaid")
   :ensure t
   :after org
   :config

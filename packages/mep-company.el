@@ -1,7 +1,7 @@
 ;; https://github.com/company-mode/company-mode
 
 (use-package company
- :straight (:host github :repo "company-mode/company-mode")
+  :straight (:host github :repo "company-mode/company-mode")
   :config
     (add-hook 'shell-mode-hook 'company-mode)
     (setq company-idle-delay 0)

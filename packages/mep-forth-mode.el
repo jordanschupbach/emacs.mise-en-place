@@ -2,7 +2,8 @@
 
 ;; larsbrinkhoff/forth-mode
 (use-package forth-mode
-  :vc (:fetcher "github"
-       :repo "larsbrinkhoff/forth-mode")
+  :straight (:host github :repo "larsbrinkhoff/forth-mode")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "larsbrinkhoff/forth-mode")
   :ensure t
 )

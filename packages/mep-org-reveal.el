@@ -9,8 +9,9 @@
 
 
 (use-package org-re-reveal
-  :vc (:fetcher "github"
-       :repo "oer/org-re-reveal")
+  :straight (:host github :repo "oer/org-re-reveal")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "oer/org-re-reveal")
   :ensure t
   :config
   (setq org-re-reveal-root "./node_modules/reveal.js")

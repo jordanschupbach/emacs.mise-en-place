@@ -11,8 +11,9 @@
 
 
 (use-package orderless
-  :vc (:fetcher "github"
-       :repo "oantolin/orderless")
+  :straight (:host github :repo "oantolin/orderless")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "oantolin/orderless")
   :ensure t
   :custom
   (completion-styles '(orderless))      ; Use orderless

@@ -2,9 +2,9 @@
 ;; NOTE: ESS needs to be before org-mode
 
 ;; packages/init.el
-(unless (package-installed-p 'vc-use-package)
-  (package-vc-install "https://github.com/slotThe/vc-use-package"))
-(require 'vc-use-package)
+;; (unless (package-installed-p 'vc-use-package)
+;;   (package-vc-install "https://github.com/slotThe/vc-use-package"))
+;; (require 'vc-use-package)
 
 (setq package-dir (concat config-dir "./packages/"))
 

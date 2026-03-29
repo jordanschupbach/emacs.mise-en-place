@@ -6,7 +6,8 @@
 ;;   )
 
 (use-package vimish-fold
-  :vc (:fetcher "github"
-       :repo "matsievskiysv/vimish-fold")
+  :straight (:host github :repo "matsievskiysv/vimish-fold")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "matsievskiysv/vimish-fold")
   :ensure t
   )

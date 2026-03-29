@@ -2,8 +2,9 @@
 
 
 (use-package lsp-mode
-  :vc (:fetcher "github"
-       :repo "hniksic/emacs-htmlize")
+  :straight (:host github :repo "hniksic/emacs-htmlize")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "hniksic/emacs-htmlize")
   :ensure t
   :hook (;; replace XXX-mode with concrete major-mode(e. g. python-mode)
          (c++-mode . lsp)

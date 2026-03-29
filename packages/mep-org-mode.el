@@ -27,35 +27,36 @@
 
 
 (use-package org
-  :vc (:fetcher "github"
-       :repo "emacs-straight/org-mode")
+  :straight (:host github :repo "emacs-straight/org-mode")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-straight/org-mode")
   :ensure t
   :after lsp-bridge lsp-mode
   :config
-  (org-babel-do-load-languages 'org-babel-load-languages
-			       '( (python . t)
-				  (C . t)
-				  (R . t)
-				  (shell . t)
-				  (maxima . t)
-				  (latex . t)
-				  (sqlite . t)
-				  (fortran . t)
-				  )
-			       )
-  (setq org-latex-pdf-process '("xelatex -interaction nonstopmode -output-directory %o %f"))
-(defun update-org-latex-fragments ()
-  (org-latex-preview '(64))
-  (plist-put org-format-latex-options :scale text-scale-mode-amount)
-  (org-latex-preview '(16)))
-(add-hook 'text-scale-mode-hook 'update-org-latex-fragments)
-    ;; (setq org-format-latex-options (plist-put org-format-latex-options :scale 2.0))
-  )
-
-
-(setq org-image-actual-width '(400))
-
-(setq org-edit-src-content-indentation 0)
+    (org-babel-do-load-languages 'org-babel-load-languages
+    			       '( (python . t)
+    				  (C . t)
+    				  (R . t)
+    				  (shell . t)
+    				  (maxima . t)
+    				  (latex . t)
+    				  (sqlite . t)
+    				  (fortran . t)
+    				  )
+    			       )
+    (setq org-latex-pdf-process '("xelatex -interaction nonstopmode -output-directory %o %f"))
+    (defun update-org-latex-fragments ()
+      (org-latex-preview '(64))
+      (plist-put org-format-latex-options :scale text-scale-mode-amount)
+      (org-latex-preview '(16))
+      (add-hook 'text-scale-mode-hook 'update-org-latex-fragments)
+      ;; (setq org-format-latex-options (plist-put org-format-latex-options :scale 2.0))
+    )
+    
+    
+    (setq org-image-actual-width '(400))
+    
+    (setq org-edit-src-content-indentation 0)
 
 
 

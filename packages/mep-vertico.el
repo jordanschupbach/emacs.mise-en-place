@@ -28,8 +28,9 @@
 
 
 (use-package vertico
-  :vc (:fetcher "github"
-       :repo "minad/vertico")
+  :straight (:host github :repo "minad/vertico")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "minad/vertico")
   :ensure t
  :config
  (vertico-mode))

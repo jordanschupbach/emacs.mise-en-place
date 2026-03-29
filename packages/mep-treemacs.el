@@ -93,8 +93,9 @@
 
 
 (use-package treemacs
-  :vc (:fetcher "github"
-       :repo "Alexander-Miller/treemacs")
+  :straight (:host github :repo "Alexander-Miller/treemacs")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "Alexander-Miller/treemacs")
   :ensure t
  :defer t
  :init

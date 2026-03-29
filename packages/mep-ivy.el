@@ -8,8 +8,9 @@
 ;;    )
 
 (use-package ivy
-  :vc (:fetcher "github"
-       :repo "abo-abo/swiper")
+  :straight (:host github :repo "abo-abo/swiper")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "abo-abo/swiper")
   :ensure t
   :config
 )

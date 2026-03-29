@@ -1,12 +1,12 @@
 
 
 (use-package general
-  :vc (:fetcher "github"
-       :repo "noctuid/general.el")
+  :straight (:host github :repo "noctuid/general.el")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "noctuid/general.el")
   :ensure t
   :config
-
-    (general-define-key ;; Globals emacs
+    (general-define-key
        :states '(emacs)
        :keymaps '(global-map evil-normal-state-map)
        "/" 'consult-line

@@ -12,8 +12,9 @@
 
 
 (use-package yasnippet
-  :vc (:fetcher "github"
-       :repo "joaotavora/yasnippet")
+  :straight (:host github :repo "joaotavora/yasnippet")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "joaotavora/yasnippet")
   :ensure t
   :config
   (yas-global-mode 1)

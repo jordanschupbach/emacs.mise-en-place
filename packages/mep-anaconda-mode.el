@@ -4,7 +4,8 @@
 
 
 (use-package anaconda-mode
-  :vc (:fetcher "github"
-       :repo "pythonic-emacs/anaconda-mode")
+  :straight (:host github :repo "pythonic-emacs/anaconda-mode")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "pythonic-emacs/anaconda-mode")
   :ensure t
   )

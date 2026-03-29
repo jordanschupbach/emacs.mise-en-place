@@ -8,8 +8,9 @@
 
 
 (use-package which-key
-  :vc (:fetcher "github"
-       :repo "justbur/emacs-which-key")
+  :straight (:host github :repo "justbur/emacs-which-key")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "justbur/emacs-which-key")
   :ensure t
  :config
  (which-key-mode))

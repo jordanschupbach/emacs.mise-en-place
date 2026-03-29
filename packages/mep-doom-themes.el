@@ -21,8 +21,9 @@
 
 
 (use-package doom-themes
-  :vc (:fetcher "github"
-       :repo "doomemacs/themes")
+  :straight (:host github :repo "doomemacs/themes")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "doomemacs/themes")
   :ensure t
   :config
   ;; Global settings (defaults)

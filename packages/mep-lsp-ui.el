@@ -4,7 +4,8 @@
 
 
 (use-package lsp-ui
-  :vc (:fetcher "github"
-       :repo "emacs-evil/evil")
+  :straight (:host github :repo "emacs-evil/evil")
+  ;; :vc (:fetcher "github"
+  ;;      :repo "emacs-evil/evil")
   :ensure t
   )
