@@ -98,7 +98,7 @@
 ;; (load (concat package-dir "mep-nix-mode.el") t)
 
 ;; (load (concat package-dir "mep-magit.el") t)
-;; (load (concat package-dir "mep-org-roam.el") t)
+(load (concat package-dir "mep-org-roam.el") t)
 ;; (load (concat package-dir "mep-org-reveal.el") t)
 ;; (load "~/.emacs.d/packages/mep-git-gutter.el")
 
