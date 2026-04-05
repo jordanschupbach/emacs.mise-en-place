@@ -20,3 +20,5 @@ eclipse.jdt.ls
 workspace
 vimish-fold
 tree-sitter
+bookmarks
+.org-id-locations

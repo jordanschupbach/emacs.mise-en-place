@@ -347,7 +347,7 @@
        :states '(normal visual)
        :keymaps '(sh-mode-map)
        "M-<RET>" '(bg-elpy-shell-send-statement-and-step :which-key "send")
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        "M-x" 'execute-extended-command
        ;; ",l" '(:ignore t :which-key "Python")
        ;; ",la" '(elpy-goto-assignment :which-key "goto-Assignment")
@@ -378,20 +378,20 @@
     (general-define-key ;; c++-mode-map
        :states '(normal visual)
        :keymaps '(c++-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        )
 
     (general-define-key ;; TeX mode
        :states '(normal visual)
        :keymaps '(TeX-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        ",hh" '(TeX-documentation-texdoc :which-key "documentation")
        )
 
     (general-define-key ;; Racket mode
        :states '(normal visual)
        :keymaps '(racket-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        "M-<RET>" 'racket-send-definition
        ",hh" '(racket-repl-describe :which-key "documentation")
        )
@@ -399,7 +399,7 @@
     (general-define-key ;; ESS R mode
        :states '(normal visual)
        :keymaps '(ess-r-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        "M-<RET>" 'ess-eval-region-or-line-and-step
        "<C-M-return>" 'ess-eval-function-or-paragraph-and-step
 
@@ -427,7 +427,7 @@
     (general-define-key ;; org-mode bindings
        :states '(normal visual)
        :keymaps '(org-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        "M-C-<return>" 'org-babel-execute-src-block
 
        ;; "M-<RET>" 'elpy-shell-send-statement-and-step
@@ -447,7 +447,7 @@
     (general-define-key ;; python-mode-map (normal & visual)
        :states '(normal visual)
        :keymaps '(python-mode-map)
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        ;; General
        "M-<RET>" 'elpy-shell-send-statement-and-step
        )
@@ -463,7 +463,7 @@
        :states '(normal visual)
        :keymaps '(python-mode-map)
        ;; "M-<RET>" '(bg-elpy-shell-send-statement-and-step :which-key "send")
-       "C-c C-c" 'org-ctrl-c-ctrl-c
+       ;; "C-c C-c" 'org-ctrl-c-ctrl-c
        ",l" '(:ignore t :which-key "Python")
        ",la" '(elpy-goto-assignment :which-key "goto-Assignment")
        ",lc" '(elpy-shell-send-defclass-and-step :which-key "send defClass")

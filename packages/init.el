@@ -62,6 +62,8 @@
 (load (concat package-dir "mep-forth-mode.el") t)
 
 (load (concat package-dir "mep-ob-async.el") t)
+(load (concat package-dir "mep-ob-C.el") t)
+(load (concat package-dir "mep-ob-csharp.el") t)
 (load (concat package-dir "mep-ob-clojure.el") t)
 (load (concat package-dir "mep-ob-crystal.el") t)
 (load (concat package-dir "mep-ob-elm.el") t)
@@ -87,11 +89,8 @@
 (load (concat package-dir "mep-ob-ruby.el") t)
 (load (concat package-dir "mep-ob-rust.el") t)
 (load (concat package-dir "mep-ob-sqlite.el") t)
-(load (concat package-dir "mep-poly-org.el") t)
 (load (concat package-dir "mep-rust-mode.el") t)
 (load (concat package-dir "mep-org-transclusion.el") t)
-
-
 (load (concat package-dir "mep-copilot.el") t)
 (load (concat package-dir "mep-compat.el") t)
 (load (concat package-dir "mep-emacs-crystal-mode.el") t)
@@ -99,11 +98,10 @@
 (load (concat package-dir "mep-julia-emacs.el") t)
 (load (concat package-dir "mep-maxima.el") t)
 (load (concat package-dir "mep-nim-mode.el") t)
+(load (concat package-dir "mep-ob-nix.el") t)
+(load (concat package-dir "mep-nix-mode.el") t)
+;; (load (concat package-dir "mep-poly-org.el") t)
 ;; (load (concat package-dir "mep-org-nix-shell.el") t)
-
-
-;; (load (concat package-dir "mep-ob-nix.el") t)
-;; (load (concat package-dir "mep-nix-mode.el") t)
 
 (load (concat package-dir "mep-magit.el") t)
 (load (concat package-dir "mep-org-roam.el") t)
