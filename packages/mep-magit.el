@@ -7,8 +7,6 @@
 
 (use-package magit
   :straight (:host github :repo "magit/magit")
-  ;; :vc (:fetcher "github"
-  ;;      :repo "magit/magit")
   :ensure t
   :config
 )

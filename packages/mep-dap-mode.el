@@ -2,8 +2,7 @@
 
 (use-package dap-mode
   :straight (:host github :repo "emacs-lsp/dap-mode")
-  ;; :vc (:fetcher "github"
-  ;;      :repo "emacs-lsp/dap-mode")
+  :after lsp-mode
   :ensure t
   :config
     (dap-mode 1)

@@ -19,3 +19,4 @@ eclipse.jdt.ls
 .cache
 workspace
 vimish-fold
+tree-sitter

@@ -90,14 +90,22 @@
 (load (concat package-dir "mep-poly-org.el") t)
 (load (concat package-dir "mep-rust-mode.el") t)
 (load (concat package-dir "mep-org-transclusion.el") t)
-;; (load (concat package-dir "mep-copilot.el") t)
+
+
+(load (concat package-dir "mep-copilot.el") t)
+(load (concat package-dir "mep-compat.el") t)
+(load (concat package-dir "mep-emacs-crystal-mode.el") t)
+(load (concat package-dir "mep-go-mode.el") t)
+(load (concat package-dir "mep-julia-emacs.el") t)
+(load (concat package-dir "mep-maxima.el") t)
+(load (concat package-dir "mep-nim-mode.el") t)
 ;; (load (concat package-dir "mep-org-nix-shell.el") t)
 
 
 ;; (load (concat package-dir "mep-ob-nix.el") t)
 ;; (load (concat package-dir "mep-nix-mode.el") t)
 
-;; (load (concat package-dir "mep-magit.el") t)
+(load (concat package-dir "mep-magit.el") t)
 (load (concat package-dir "mep-org-roam.el") t)
 ;; (load (concat package-dir "mep-org-reveal.el") t)
 ;; (load "~/.emacs.d/packages/mep-git-gutter.el")
